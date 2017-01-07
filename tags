@@ -7,6 +7,7 @@ CActInst	./src/Model/Instance.hs	3
 CFact	./src/Model/Instance.hs	9
 Config.Config	./src/Config/Config.hs	3
 Config.Server.Config	./src/Config/Server/Config.hs	1
+DemoApp	./src/Main.hs	16
 Description	./src/Model/Instance.hs	43
 Main	./src/Main.hs	3
 Main	./src/Model/Instance.hs	21
@@ -32,7 +33,7 @@ TransactionKind	./src/Model/TransactionKind.hs	6
 Views.Home	./src/Views/Home.hs	3
 a01	./src/Model/Instance.hs	56
 actorRoles	./src/Model/Instance.hs	59
-app	./src/Main.hs	21
+app	./src/Main.hs	23
 arId	./src/Model/Instance.hs	26
 arName	./src/Model/Instance.hs	27
 baseURL	./src/Config/Config.hs	13
@@ -65,7 +66,7 @@ label	./src/Model/Instance.hs	18
 libdir	./dist/build/autogen/Paths_DEMO_Machine.hs	30
 libexecdir	./dist/build/autogen/Paths_DEMO_Machine.hs	30
 main	./Setup.hs	2
-main	./src/Main.hs	16
+main	./src/Main.hs	18
 main	./src/Model/Instance.hs	88
 name	./src/Model/Instance.hs	107
 name	./src/Model/TransactionKind.hs	8
@@ -80,7 +81,7 @@ renderAcknowledgement	./src/Views/Home.hs	64
 renderBanner	./src/Views/Home.hs	28
 renderFooter	./src/Views/Home.hs	37
 renderHead	./src/Views/Home.hs	17
-rootHandler	./src/Main.hs	27
+rootHandler	./src/Main.hs	29
 staticURL	./src/Config/Config.hs	16
 sysconfdir	./dist/build/autogen/Paths_DEMO_Machine.hs	30
 t01	./src/Model/Instance.hs	62

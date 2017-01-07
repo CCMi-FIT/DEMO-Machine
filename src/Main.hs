@@ -13,16 +13,21 @@ import Config.Server.Config (port)
 
 import Views.Home (homeView)
 
+type DemoApp = SpockM () () () ()
+
 main :: IO ()
 main = do
   spockCfg <- WC.defaultSpockCfg () WC.PCNoDatabase ()
   runSpock port (spock spockCfg app)
 
-app :: SpockM () () () ()
+app :: DemoApp
 app = do
   middleware M.static
   middleware logStdoutDev
   get root rootHandler
 
 rootHandler :: ActionCtxT ctx (WebStateM () () ()) a
-rootHandler = html $ toStrict $ renderHtml homeView
+rootHandler = do
+  sess <- readSession
+
+  html $ toStrict $ renderHtml homeView

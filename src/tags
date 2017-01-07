@@ -7,6 +7,7 @@ CActInst	./Model/Instance.hs	3
 CFact	./Model/Instance.hs	9
 Config.Config	./Config/Config.hs	3
 Config.Server.Config	./Config/Server/Config.hs	1
+DemoApp	./Main.hs	16
 Description	./Model/Instance.hs	43
 Main	./Main.hs	3
 Main	./Model/Instance.hs	21
@@ -28,9 +29,10 @@ Stated	./Model/Instance.hs	12
 Text	./Config/Config.hs	8
 TransactionKind	./Model/Instance.hs	35
 TransactionKind	./Model/TransactionKind.hs	6
-Views.Home	./Views/Home.hs	2
+Views.Home	./Views/Home.hs	3
 a01	./Model/Instance.hs	56
 actorRoles	./Model/Instance.hs	59
+app	./Main.hs	23
 arId	./Model/Instance.hs	26
 arName	./Model/Instance.hs	27
 baseURL	./Config/Config.hs	13
@@ -40,7 +42,7 @@ executor	./Model/Instance.hs	109
 executor	./Model/TransactionKind.hs	10
 fact	./Model/Instance.hs	98
 fact	./Model/ProductKind.hs	5
-homeView	./Views/Home.hs	68
+homeView	./Views/Home.hs	96
 id	./Model/Instance.hs	17
 id	./Model/Instance.hs	97
 id	./Model/Instance.hs	106
@@ -48,6 +50,7 @@ id	./Model/ProductKind.hs	4
 id	./Model/TransactionKind.hs	7
 initiator	./Model/Instance.hs	108
 initiator	./Model/TransactionKind.hs	9
+inputF	./Views/Home.hs	76
 label	./Model/Instance.hs	18
 main	./Main.hs	18
 main	./Model/Instance.hs	88
@@ -60,12 +63,11 @@ pId	./Model/Instance.hs	31
 port	./Config/Server/Config.hs	3
 product	./Model/Instance.hs	110
 product	./Model/TransactionKind.hs	11
-renderAcknowledgement	./Views/Home.hs	54
-renderBanner	./Views/Home.hs	24
-renderFooter	./Views/Home.hs	32
-renderHead	./Views/Home.hs	14
-renderPage	./Views/Home.hs	69
-rootHandler	./Main.hs	27
+renderAcknowledgement	./Views/Home.hs	64
+renderBanner	./Views/Home.hs	28
+renderFooter	./Views/Home.hs	37
+renderHead	./Views/Home.hs	17
+rootHandler	./Main.hs	29
 staticURL	./Config/Config.hs	16
 t01	./Model/Instance.hs	62
 t02	./Model/Instance.hs	71
@@ -74,4 +76,5 @@ tkId	./Model/Instance.hs	36
 tkInitiator	./Model/Instance.hs	38
 tkName	./Model/Instance.hs	37
 tkProduct	./Model/Instance.hs	40
+transactionKindInput	./Views/Home.hs	82
 transactionKinds	./Model/Instance.hs	80

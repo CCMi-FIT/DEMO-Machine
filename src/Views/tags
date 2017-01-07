@@ -1,6 +1,8 @@
 Views.Home	./Home.hs	3
-homeView	./Home.hs	76
-renderAcknowledgement	./Home.hs	63
-renderBanner	./Home.hs	27
-renderFooter	./Home.hs	36
-renderHead	./Home.hs	16
+homeView	./Home.hs	96
+inputF	./Home.hs	76
+renderAcknowledgement	./Home.hs	64
+renderBanner	./Home.hs	28
+renderFooter	./Home.hs	37
+renderHead	./Home.hs	17
+transactionKindInput	./Home.hs	82

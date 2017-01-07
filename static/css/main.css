@@ -219,3 +219,8 @@ input[type="submit"],
 label {
   line-height: 20px;
 }
+.model-def-label {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+}

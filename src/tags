@@ -7,7 +7,7 @@ CActInst	./Model/Instance.hs	3
 CFact	./Model/Instance.hs	9
 Config.Config	./Config/Config.hs	3
 Config.Server.Config	./Config/Server/Config.hs	1
-DemoApp	./Main.hs	16
+DemoApp	./Main.hs	14
 Description	./Model/Instance.hs	43
 Main	./Main.hs	3
 Main	./Model/Instance.hs	21
@@ -32,7 +32,6 @@ TransactionKind	./Model/TransactionKind.hs	6
 Views.Home	./Views/Home.hs	3
 a01	./Model/Instance.hs	56
 actorRoles	./Model/Instance.hs	59
-app	./Main.hs	23
 arId	./Model/Instance.hs	26
 arName	./Model/Instance.hs	27
 baseURL	./Config/Config.hs	13
@@ -52,7 +51,7 @@ initiator	./Model/Instance.hs	108
 initiator	./Model/TransactionKind.hs	9
 inputF	./Views/Home.hs	76
 label	./Model/Instance.hs	18
-main	./Main.hs	18
+main	./Main.hs	16
 main	./Model/Instance.hs	88
 name	./Model/Instance.hs	107
 name	./Model/TransactionKind.hs	8
@@ -67,7 +66,7 @@ renderAcknowledgement	./Views/Home.hs	64
 renderBanner	./Views/Home.hs	28
 renderFooter	./Views/Home.hs	37
 renderHead	./Views/Home.hs	17
-rootHandler	./Main.hs	29
+rootHandler	./Main.hs	22
 staticURL	./Config/Config.hs	16
 t01	./Model/Instance.hs	62
 t02	./Model/Instance.hs	71

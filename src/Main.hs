@@ -5,7 +5,7 @@ module Main where
 import qualified Data.Map as Map
 import qualified Data.Text.Lazy
 import qualified Data.Text
-import qualified Data.Text.Internal.Lazy 
+import qualified Data.Text.Internal.Lazy
 --import Control.Monad.Trans (liftIO)
 import Text.Blaze.Html.Renderer.Text (renderHtml)
 import Web.Scotty
@@ -22,9 +22,10 @@ main :: IO ()
 main = scotty port $ do
   middleware M.static
   middleware logStdoutDev
-  get "/" $ html $ renderHtml $ V.makePage V.Home (Map.fromList [])
-  get "/modelDefinition" $ getCookies >>= (html . renderHtml . V.makePage V.ModelDefinition)
+  get "/" $ html $ renderHtml $ V.makePage V.Home V.NoMachine (Map.fromList [])
+  get "/modelDefinition" $ getCookies >>= (html . renderHtml . V.makePage V.Machine V.ModelDefinition)
   post "/modelDefinition" $ defineModel
+  get "/execution" $ getCookies >>= (html . renderHtml . V.makePage V.Machine V.Execution)
 
 e2tl :: DemoElement -> Data.Text.Internal.Lazy.Text
 e2tl el = Data.Text.Lazy.pack $ show el
@@ -40,5 +41,6 @@ defineModel = do
   param (e2tl Executor) >>= setSimpleCookie (e2t Executor)
   redirect "/modelDefinition"
 
-  
+
+
 

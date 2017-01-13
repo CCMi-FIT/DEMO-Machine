@@ -34,6 +34,7 @@ paramVal cookies el = let key = T.pack $ show el in
 
 inputF :: Cookies -> DemoElement -> Html
 inputF cookies el = let name1 = T.pack $ show el in
-  H.tr $
-  do H.td (toHtml name1)
-     H.td $ H.input ! A.name (textValue name1) ! A.value (textValue $ paramVal cookies el)
+  H.tr $ do
+    H.td $
+      H.label ! A.class_ "labeltd" $ (toHtml name1)
+    H.td $ H.input ! A.name (textValue name1) ! A.value (textValue $ paramVal cookies el)

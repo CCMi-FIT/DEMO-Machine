@@ -15,6 +15,9 @@ cabal.sandbox.config
 *.aux
 *.hp
 *.eventlog
+*.jsmod
+*.swp
+tags
 .stack-work/
 cabal.project.local
-tags
+static/js/main.js

@@ -77,6 +77,7 @@ makePage mainPage machinePage cookies =
       renderFooter
       --renderAcknowledgement
     H.script ! A.src (textValue $ staticURL <> "js/vendor/jquery-3.1.1.min.js") $ mempty
+    H.script ! A.src (textValue $ staticURL <> "js/vendor/js.cookie.js") $ mempty
     H.script ! A.src (textValue $ staticURL <> "js/vendor/bootstrap.min.js") $ mempty
     H.script ! A.src (textValue $ staticURL <> "js/main.js") $ mempty
 
